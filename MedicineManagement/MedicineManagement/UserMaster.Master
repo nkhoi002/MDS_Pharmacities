@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs" Inherits="MedicineManagement.UserMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style/bootstrap.css" rel="stylesheet" />
+    <link href="style/Site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="style/bootstrap.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">ONLINE PHARMACY MANAGEMENT</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/Default.aspx">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Category
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <asp:Literal ID="ltrlCategory" runat="server" />
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Brand
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <asp:Literal ID="ltrlBrand" runat="server" />
+                            </ul>
+                        </li>
+                        <li><a runat="server" href="SearchMedicine.aspx">Search</a></li>
+                        <li><a runat="server" href="Offers.aspx">Offers</a></li>
+                        <li><a runat="server" href="OrderUserList">Order List</a></li> <!-- Added Cart link -->
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <% if (Session["FullName"] != null)
+                                    { %>
+                                <li><a runat="server" href="#" title="Manage your account">Hello, <%: Convert.ToString(Session["FullName"]) %> !</a></li>
+                                <li>
+                                    <asp:LinkButton runat="server" ID="lnkbtnLogout" OnClick="lnkbtnLogout_Click" CausesValidation="false">LogOut</asp:LinkButton>
+                                </li>
+                                <%}
+                                else
+                                { %>
+                                <li><a runat="server" href="~/UserRegistration.aspx">Register</a></li>
+                                <li><a runat="server" href="~/Login.aspx">Log in</a></li>
+                                <%} %>
+                            </ul>
+                        </AnonymousTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Pharmacity TNK</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

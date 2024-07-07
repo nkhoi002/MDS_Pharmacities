@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ELogisticWareHouse.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ONLINE PHARMACY MANAGEMENT</title>
+    <meta http-equiv="Content-Language" content="English" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/common.css" rel="stylesheet" />
+    <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">--%>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrap">
+            <div id="header">
+                <h1>ONLINE PHARMACY MANAGEMENT</h1>
+                <div id="login">
+                    <strong><a runat="server" href="#" title="Manage your account">Hello, Admin !</a></strong> &nbsp;&nbsp;
+                    
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div>
+                <div class="right">
+                    <asp:ContentPlaceHolder ID="Content" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="left">
+                    <ul>
+                        <li>
+                            <h2>Admin</h2>
+                            <ul>
+                                <li><a href="Manufacturer.aspx" id="brand" runat="server">Brand Management</a></li>
+                                <li><a href="CategoryManagement.aspx" id="category" runat="server">Add New Category</a></li>
+                                <li><a href="AddMedicine.aspx" id="medicine" runat="server">Add New Medicine</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Report</h2>
+                            <ul>
+                                <li><a href="OrderList.aspx" id="orders" runat="server">Order List</a></li>
+                                <li><a href="UserList.aspx" id="A1" runat="server">User List</a></li>
+                                <li><a href="PaymentReports.aspx" id="userList" runat="server">Payment List</a></li>
+                                <li>
+                                    <asp:LinkButton ID="lnkbtnLogout" runat="server" BackColor="Yellow" OnClick="lnkbtnLogout_Click1" CausesValidation="False">LogOut</asp:LinkButton></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div id="footer">
+                <h2>Copyright @KhoiB2014927@student.ctu.edu.vn <% DateTime.Now.ToString("YYYY"); %> </h2>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

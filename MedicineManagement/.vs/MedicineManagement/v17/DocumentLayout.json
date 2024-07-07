@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|d:\\it\\web\\onlinepharmacy\\medicinemanagement\\medicinemanagement\\userregistration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\userregistration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\medicinemanagement\\paymentreports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\paymentreports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\medicinemanagement\\orderlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\orderlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\medicinemanagement\\paymentdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\paymentdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\medicinemanagement\\searchmedicine.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\searchmedicine.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\medicinemanagement\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\medicinemanagement\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B7481D2A-877F-44DC-B631-4E0F748E6BFE}|MedicineManagement\\MedicineManagement.csproj|solutionrelative:medicinemanagement\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegistration.aspx",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\UserRegistration.aspx",
+              "RelativeDocumentMoniker": "MedicineManagement\\UserRegistration.aspx",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\UserRegistration.aspx",
+              "RelativeToolTip": "MedicineManagement\\UserRegistration.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-29T15:13:12.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentReports.aspx",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\PaymentReports.aspx",
+              "RelativeDocumentMoniker": "MedicineManagement\\PaymentReports.aspx",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\PaymentReports.aspx",
+              "RelativeToolTip": "MedicineManagement\\PaymentReports.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-29T14:56:01.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderList.aspx",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\OrderList.aspx",
+              "RelativeDocumentMoniker": "MedicineManagement\\OrderList.aspx",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\OrderList.aspx",
+              "RelativeToolTip": "MedicineManagement\\OrderList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-29T14:46:55.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentDetails.aspx",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\PaymentDetails.aspx",
+              "RelativeDocumentMoniker": "MedicineManagement\\PaymentDetails.aspx",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\PaymentDetails.aspx",
+              "RelativeToolTip": "MedicineManagement\\PaymentDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-29T14:42:54.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchMedicine.aspx",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\SearchMedicine.aspx",
+              "RelativeDocumentMoniker": "MedicineManagement\\SearchMedicine.aspx",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\SearchMedicine.aspx",
+              "RelativeToolTip": "MedicineManagement\\SearchMedicine.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-28T15:59:53.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "MedicineManagement\\Login.aspx.cs",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\Login.aspx.cs",
+              "RelativeToolTip": "MedicineManagement\\Login.aspx.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvyEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:25:20.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\Login.aspx",
+              "RelativeDocumentMoniker": "MedicineManagement\\Login.aspx",
+              "ToolTip": "D:\\IT\\web\\OnlinePharmacy\\MedicineManagement\\MedicineManagement\\Login.aspx",
+              "RelativeToolTip": "MedicineManagement\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-28T00:20:36.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
